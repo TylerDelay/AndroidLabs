@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widgets_message"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="163dp"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:text="@string/ButtonText"
+        android:layout_below="@id/textView"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="249dp"
+        android:layout_height="129dp"
+        android:layout_gravity="fill"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/flag"
+        android:layout_toRightOf="@id/button2"
+        android:layout_below="@id/textView"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="148dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toStartOf="@+id/switch1"
+        android:layout_toLeftOf="@id/imageButton"
+        android:layout_weight="1"
+        android:text="@string/check_message" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageButton"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toRightOf="@id/button2"
+        android:layout_weight="1"
+        android:text="@string/switchon_off" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_message"
+        android:inputType="textPersonName"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch1"/>
+
+
+
+</RelativeLayout>
