@@ -7,7 +7,18 @@
     <string name="check_message">Check this out!</string>
     <string name="switchon_off">Switch on / off</string>
     <string name="hint_message">Type your answer here</string>
+    <string name="loginEmail">Enter your email address:</string>
+    <string name="typeEmail">Type email here</string>
+    <string name="password">Type your password:</string>
+    <string name="loginBtn">LOGIN</string>
 
-
+    //strings for lab3
+    <string name="yourProfile">Your Profile</string>
+    <string name="yourName">Your Name:</string>
+    <string name="enterName">Enter your name</string>
+    <string name="yourEmail">Your email</string>
+    <string name="email">Enter your email</string>
+    <string name="yourPic">Your picture:</string>
+    <string name="clickBtn">Click the button above to take a picture</string>
 
 </resources>

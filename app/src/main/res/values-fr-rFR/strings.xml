@@ -8,4 +8,20 @@
     <string name="check_message">Regarde ça!</string>
     <string name="switchon_off">Allumer / éteindre</string>
     <string name="hint_message">Tapez votre réponse ici</string>
+    <string name="loginEmail">Entrez votre adresse e-mail:</string>
+    <string name="typeEmail">Tapez lui un email</string>
+    <string name="password">Tapez votre mot de passe:</string>
+    <string name="loginBtn">S\IDENTIFIER</string>
+
+    // strings for lab3
+    <string name="yourProfile">Votre profil</string>
+    <string name="yourName">Votre nom:</string>
+    <string name="enterName">Entrez votre nom</string>
+    <string name="yourEmail">Votre email</string>
+    <string name="email">Entrer votre Email</string>
+    <string name="yourPic">Ta photo:</string>
+    <string name="clickBtn">Cliquez sur le bouton ci-dessus pour prendre une photo</string>
+
+
+
 </resources>
