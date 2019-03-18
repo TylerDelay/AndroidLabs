@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.login_lab3);
 
         //loading the sharedpreferences and users email address
-        Button nextButton = (Button)findViewById(R.id.buttonLogin);
+        Button nextButton = (Button)findViewById(R.id.buttonLogin);//button from login page
         emailField = (EditText)findViewById(R.id.editTextEmail);
         share = getSharedPreferences("FileName", Context.MODE_PRIVATE);
         String saveEmail = share.getString("ReserveName", "Default value");

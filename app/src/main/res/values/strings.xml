@@ -20,5 +20,10 @@
     <string name="email">Enter your email</string>
     <string name="yourPic">Your picture:</string>
     <string name="clickBtn">Click the button above to take a picture</string>
+    //strings for lab4
+    <string name="chatRoom">Go to chat</string>
+    <string name="send">SEND</string>
+    <string name="typeHere">Type here</string>
+    <string name="recieve">RECEIVE</string>
 
 </resources>

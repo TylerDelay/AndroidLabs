@@ -7,6 +7,7 @@ import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
@@ -32,6 +33,13 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
         Log.e(ACTIVITY_NAME, "In function: onCreate"  /* replace with function name */);
+
+        //
+        Button chatB = (Button)findViewById(R.id.chatButton);
+        chatB.setOnClickListener(bt-> startActivity(new Intent(ProfileActivity.this, ChatRoomActivity.class)));
+
+
+
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

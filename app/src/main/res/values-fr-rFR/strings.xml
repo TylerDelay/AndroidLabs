@@ -21,6 +21,11 @@
     <string name="email">Entrer votre Email</string>
     <string name="yourPic">Ta photo:</string>
     <string name="clickBtn">Cliquez sur le bouton ci-dessus pour prendre une photo</string>
+    //strings for lab4
+    <string name="chatRoom">Aller discuter</string>
+    <string name="send">ENVOYER</string>
+    <string name="typeHere">Écrivez ici</string>
+    <string name="recieve">RECEVOIR</string>
 
 
 
